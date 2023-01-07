@@ -1,0 +1,10 @@
+print ("please enter a word")
+word = input ()
+# using slicing we got first two letters from the word
+first_two_letters = word [:2]
+
+rest_of_word = word [:2]
+
+rotated = rest_of_word + first_two_letters
+
+print (rotated)
